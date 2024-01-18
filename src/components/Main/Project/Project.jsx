@@ -9,6 +9,7 @@ function Project() {
       <>
         <section id="section3" className="section inner layout">
           <h2 className="main-tit"><span>Project</span></h2>
+          <img src="img/pj_nie_pc.jpg" alt="" />
           <ul className="proj-wrap">
               {projects.map( prj =>(
                   <li key={prj.id} className="item">
