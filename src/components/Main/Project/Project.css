@@ -28,7 +28,6 @@
 .prjDetail-content .img-wrap .img.mo{display: block;}
 .prjDetail-content .img-wrap .img.mo{display: none;}
 
-.detail-list{}
 .detail-list >li{display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 5px;}
 .detail-tit{width: 100px;}
 .detail-desc{width: 100%; flex: 1; font-weight: 600; color: #333;}
