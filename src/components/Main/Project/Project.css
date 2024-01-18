@@ -36,7 +36,12 @@
 .btn-wrap{text-align: center;}
 .btn-wrap .btn{display: inline-flex; align-items: center; justify-content: center; min-width: 180px; background: var(--yellow); color: #333; font-weight: 700; margin: 0 5px 10px; line-height: 50px; border-radius: 50px;}
 
+@media (max-width : 1024px) {
+  .proj-wrap .item{width: calc(50% - 7px); }
+}
 @media (max-width : 768px) {
+    .proj-wrap .item{width: 100%; }
+
     .prjDetail-title{width: 100%;}
     .prjDetail-content{flex: auto; margin-top: 20px;}
     .prjDetail-content .img-wrap .img.mo{display: block;}
