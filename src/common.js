@@ -38,3 +38,18 @@ $(window).bind('scroll load orientationchange reload resize ready', function() {
     }
   })
 })
+
+const moveScrollTop = () => { 
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+};
+
+$('.gnb a').click(function(){
+  $('header').removeClass('bottom')
+
+  moveScrollTop();
+})
+/* $('.gnb a').click(function(){
+  moveScrollTop();
+}) */

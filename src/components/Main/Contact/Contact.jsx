@@ -1,21 +1,28 @@
+import { useEffect, useState } from 'react';
 import './Contact.css'
 
 function Contact() {
-    window.addEventListener('scroll', function(){
-      if(document.getElementById('section4')){
-        const sec4Top = document.querySelector("#section4").offsetTop - 200;
-        let scrollY = window.scrollY;
-        console.log(sec4Top);
-        // console.log( scrollY );
-        
-        if(sec4Top < scrollY){
-          document.querySelector('header').classList.add('bottom');
-          // console.log( 'bottom' );
-        }else {
-          document.querySelector('header').classList.remove('bottom');
-        }
-      }
-    });
+    // const [position, setposition] = useState(0);
+    // const [position2, setposition2] = useState(0);
+    // function onScroll(){
+    //   setposition(window.scrollY);
+    //   setposition2(document.querySelector("#section4").offsetTop - 200);
+    // }
+    // useEffect(() => {
+    //   window.addEventListener('scroll', onScroll);
+    //   return () => {
+    //     window.removeEventListener('scroll', onScroll)
+    //   }
+    // })
+
+    // console.log(position);
+    // console.log(position2);
+
+    // if(position >= position2){
+    //   document.querySelector('header').classList.add('bottom');
+    // }else {
+    //   // document.querySelector('header').classList.remove('bottom');
+    // }
     
     return (
       <>

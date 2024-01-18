@@ -4,11 +4,6 @@ import { getProjects } from "./data";
 import './Project.css'
 
 function Project() {
-    const moveScrollTop = () => { window.scrollTop({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    })};
 
     const projects = getProjects();
     return (
@@ -18,7 +13,7 @@ function Project() {
           <ul className="proj-wrap">
               {projects.map( prj =>(
                   <li key={prj.id} className="item">
-                    <Link to={`/project/${prj.id}`} onClick={moveScrollTop} className="link">
+                    <Link to={`/project/${prj.id}`} className="link">
                       {/* <div className="img" style={{backgroundImage: `url(${prj.pcImg})`}}></div> */}
                       <div className="img"><img src={`${process.env.PUBLIC_URL}${prj.pcImg}`} alt="" /></div>
                       <div className="bg">

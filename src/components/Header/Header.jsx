@@ -3,17 +3,6 @@ import './Header.css';
 
 function Header() {
   
-  const moveScrollTop = () => { window.scrollTop({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  })};
-
-  const eventHeader = () => {
-    document.querySelector('header').classList.remove('bottom');
-    console.log('a')
-    moveScrollTop();
-  }
   return (
     <>
     <header>
