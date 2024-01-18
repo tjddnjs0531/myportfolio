@@ -13,8 +13,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Main />
       <Routes>
-        <Route path='/' element={<Main />} />
+        {/* <Route path='/' element={<Main />} /> */}
         <Route path='/about' element={<About />} />
         <Route path='/project' element={<Project />} />
         <Route path='/project/:projectId' element={<ProjectDetail />} />
