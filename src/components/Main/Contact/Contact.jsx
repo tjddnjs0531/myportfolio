@@ -1,6 +1,22 @@
 import './Contact.css'
 
 function Contact() {
+    window.addEventListener('scroll', function(){
+      if(document.getElementById('section4')){
+        const sec4Top = document.querySelector("#section4").offsetTop - 200;
+        let scrollY = window.scrollY;
+        console.log(sec4Top);
+        // console.log( scrollY );
+        
+        if(sec4Top < scrollY){
+          document.querySelector('header').classList.add('bottom');
+          // console.log( 'bottom' );
+        }else {
+          document.querySelector('header').classList.remove('bottom');
+        }
+      }
+    });
+    
     return (
       <>
       <section id="section4" className="section">

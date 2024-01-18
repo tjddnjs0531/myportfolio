@@ -6,9 +6,7 @@ import './Project.css'
 function ProjectDetail() {
     
     const params = useParams();
-    console.log(params);
     const project = getProject(parseInt(params.projectId));
-    console.log(project);
     let overview = '';
     
     if(project.overview != null){
@@ -68,8 +66,8 @@ function ProjectDetail() {
             <div className="prjDetail-title">View</div>
             <div className="prjDetail-content">
               <div className="img-wrap">
-              <span className="img pc" style={{backgroundImage: `url(.${project.pcImg})`}}></span>
-              <span className="img mo" style={{backgroundImage: `url(.${project.moImg})`}}></span>
+              <img className="img pc" src={`${process.env.PUBLIC_URL}${project.pcImg}`}></img>
+              <img className="img mo" src={`${process.env.PUBLIC_URL}${project.moImg}`}></img>
               </div>
             </div>
           </div>

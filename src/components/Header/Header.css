@@ -7,10 +7,10 @@ header{position: sticky; top: 0; width: 100%; background: #fff; padding-top: 1em
 .gnb .active a{color: #fff;font-weight: 900;text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;letter-spacing: 2px;}
 .gnb .active-nav span::before{width: 115%; left: 50%;}
 
-.sec3 header{background: transparent;}
-.sec3 .header-wrap{border-color: #fff;}
-.sec3 .gnb >li >a{color: #fff;}
-.sec3 .gnb .active a{color: #333; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+header.bottom{background: transparent;}
+.bottom .header-wrap{border-color: #fff;}
+.bottom .gnb >li >a{color: #fff;}
+.bottom .gnb .active a{color: #333; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
 
 @media (max-width : 480px) {
     .gnb > li > a {

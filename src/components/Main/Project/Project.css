@@ -1,7 +1,7 @@
 .proj-wrap{display: flex; flex-wrap: wrap; gap: 10px;}
-.proj-wrap .item{position: relative; width: calc(33.3333% - 7px); border: 1px solid #ddd;}
+.proj-wrap .item{position: relative; width: calc(33.3333% - 7px); border: 1px solid #ddd; overflow: hidden;}
 .proj-wrap .item .link{position: relative; display: block; width: 100%; height: 100%; padding-bottom: 56%;}
-.proj-wrap .item .img{background: #000 url('') no-repeat center top / cover; width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+.proj-wrap .item .img{width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
 .proj-wrap .item .bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all .6s ease;}
 .proj-wrap .item .bg .title{color: #fff; font-size: 20px; font-weight: 600;}
 .proj-wrap .item .bg::before,
@@ -23,8 +23,8 @@
 .prjDetail{display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px;}
 .prjDetail-title{width: 150px; font-weight: 900; font-size: 20px; color: #333;}
 .prjDetail-content{width: 100%; flex: 1;;}
-.prjDetail-content .img-wrap{position: relative;width: 100%; height: 100%; padding-bottom: 60%; border: 2px solid #333;;}
-.prjDetail-content .img-wrap .img{background: #fff url('') no-repeat center top / 100%; width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+.prjDetail-content .img-wrap{position: relative;width: 100%; height: 100%; border: 2px solid #333;;}
+.prjDetail-content .img-wrap .img{width: 100%; height: 100%;}
 .prjDetail-content .img-wrap .img.mo{display: block;}
 .prjDetail-content .img-wrap .img.mo{display: none;}
 
@@ -39,7 +39,6 @@
 @media (max-width : 768px) {
     .prjDetail-title{width: 100%;}
     .prjDetail-content{flex: auto; margin-top: 20px;}
-    .prjDetail-content .img-wrap{padding-bottom: 170%;}
     .prjDetail-content .img-wrap .img.mo{display: block;}
     .prjDetail-content .img-wrap .img.pc{display: none;}
     .btn-wrap .btn{min-width: 120px;}
