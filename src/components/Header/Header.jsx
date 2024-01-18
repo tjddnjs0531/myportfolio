@@ -21,9 +21,9 @@ function Header() {
             <h1 className="logo"></h1>
             <nav id="topNav">
                 <ul className="gnb">
-                    <li><NavLink to={'/'} className={({isActive})=> isActive ? 'active-nav' : ''} onClick={eventHeader}><span>Home</span></NavLink></li>
-                    <li><NavLink to={'/about'} className={({isActive})=> isActive ? 'active-nav' : ''} onClick={eventHeader}><span>About</span></NavLink></li>
-                    <li><NavLink to={'/project'} className={({isActive})=> isActive ? 'active-nav' : ''} onClick={eventHeader}><span>Project</span></NavLink></li>
+                    <li><NavLink to={'/'} className={({isActive})=> isActive ? 'active-nav' : ''}><span>Home</span></NavLink></li>
+                    <li><NavLink to={'/about'} className={({isActive})=> isActive ? 'active-nav' : ''}><span>About</span></NavLink></li>
+                    <li><NavLink to={'/project'} className={({isActive})=> isActive ? 'active-nav' : ''}><span>Project</span></NavLink></li>
                     <li><NavLink to={'/contact'} className={({isActive})=> isActive ? 'active-nav' : ''}><span>Contact</span></NavLink></li>
                 </ul>
             </nav>
