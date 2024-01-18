@@ -7,8 +7,8 @@ let projects = [
         "desc" : "CMS 기반 반응형 웹 사이트 구축",
         "overview" : "강서구 문화 관련 시설 4개의 사이트를 하나로 합치는 프로젝트 였습니다. \n타 프로젝트 대비 제작기간이 50%밖에 주어지지 않아, 효율적이고 생산적인 업무 진행을 위해 노력하였습니다.",
         "link" : "https://culture.gangseo.seoul.kr/gsfc/main/main.do",
-        "pcImg" : "./img/pj_gsfc_pc.jpg",
-        "moImg" : "./img/pj_gsfc_m.jpg",
+        "pcImg" : "/img/pj_gsfc_pc.jpg",
+        "moImg" : "/img/pj_gsfc_m.jpg",
     },
     {
         "id" : 2,
@@ -18,8 +18,8 @@ let projects = [
         "desc" : "반응형 웹 사이트 구축",
         "overview" : "국립생태원의 10주년을 축하하는 페이지로 \n클라이언트의 요청사항을 반영하여 신규 화면으로 작업하였습니다.",
         "link" : "https://www.nie.re.kr/nieAnn/main/main.do",
-        "pcImg" : "./img/pj_nie_pc.jpg",
-        "moImg" : "./img/pj_nie_m.jpg",
+        "pcImg" : "/img/pj_nie_pc.jpg",
+        "moImg" : "/img/pj_nie_m.jpg",
     },
     {
         "id" : 3,
@@ -29,8 +29,8 @@ let projects = [
         "desc" : "CMS 기반 반응형 웹 홈페이지 구축 \n'이모드니' 패밀리 사이트 작업",
         "overview" : "패밀리사이트 작업도 동반되어야 해서 구조화된 코드 작업을 더 노력하였습니다. \n특히 웹 접근성과 반응형 디자인 모두를 고려해 작업하였습니다.",
         "link" : "https://www.bpcf.or.kr/bpcf/main/main.do",
-        "pcImg" : "./img/pj_bpcf_pc.jpg",
-        "moImg" : "./img/pj_bpcf_m.jpg",
+        "pcImg" : "/img/pj_bpcf_pc.jpg",
+        "moImg" : "/img/pj_bpcf_m.jpg",
     },
     {
         "id" : 4,
@@ -40,8 +40,8 @@ let projects = [
         "desc" : "CMS 기반 반응형 웹 홈페이지 구축 및 웹접근성 획득",
         "overview" : "클라이언트의 요청사항을 반영하여 손기정 기념재단에서 운영하는 손기정 박물관의 홈페이지를 작업하였습니다.",
         "link" : "http://www.sonkeechung.com/sonkeechung/main/main.do",
-        "pcImg" : "./img/pj_skj_pc.jpg",
-        "moImg" : "./img/pj_skj_m.jpg",
+        "pcImg" : "/img/pj_skj_pc.jpg",
+        "moImg" : "/img/pj_skj_m.jpg",
     },
     {
         "id" : 5,
@@ -51,8 +51,8 @@ let projects = [
         "desc" : "반응형 웹 리뉴얼 작업 및 웹접근성 획득",
         "overview" : "메인 페이지를 포함하여 서브페이지까지 부트스트랩 라이브러리를 사용하여 홈페이지 리뉴얼 작업 진행하였습니다.",
         "link" : "https://www.gangnam.go.kr/main.do",
-        "pcImg" : "./img/pj_gn1_pc.jpg",
-        "moImg" : "./img/pj_gn1_m.jpg",
+        "pcImg" : "/img/pj_gn1_pc.jpg",
+        "moImg" : "/img/pj_gn1_m.jpg",
     },
     {
         "id" : 6,
@@ -62,8 +62,8 @@ let projects = [
         "desc" : "반응형 웹 리뉴얼 작업",
         "overview" : null,
         "link" : "https://www.gangnam.go.kr/center/main.do?office=3220049",
-        "pcImg" : "./img/pj_gn2_pc.jpg",
-        "moImg" : "./img/pj_gn2_m.jpg",
+        "pcImg" : "/img/pj_gn2_pc.jpg",
+        "moImg" : "/img/pj_gn2_m.jpg",
     },
     {
         "id" : 7,
@@ -73,8 +73,8 @@ let projects = [
         "desc" : "CMS 기반 반응형 웹 홈페이지 구축 및 웹접근성 획득",
         "overview" : "사회주택, 청년주택 패밀리 사이트 작업도 포함된 프로젝트로 \n공통된 클래스를 잘 정리하여 깔끔한 코딩 작업을 진행하였습니다.",
         "link" : "https://soco.seoul.go.kr/coHouse/main/main.do",
-        "pcImg" : "./img/pj_co_pc.jpg",
-        "moImg" : "./img/pj_co_m.jpg",
+        "pcImg" : "/img/pj_co_pc.jpg",
+        "moImg" : "/img/pj_co_m.jpg",
     },
     {
         "id" : 8,
@@ -84,8 +84,8 @@ let projects = [
         "desc" : "CMS 기반 반응형 웹 홈페이지 구축",
         "overview" : "클라이언트의 요청사항을 반영하여 퍼블리싱에 참여했으며 \n뎁스가 긴 사이트이다보니 안전성을 고려하여 작업하였습니다. ",
         "link" : "https://www.paik.ac.kr/paik/user/main/view.do",
-        "pcImg" : "./img/pj_paik_pc.jpg",
-        "moImg" : "./img/pj_paik_m.jpg",
+        "pcImg" : "/img/pj_paik_pc.jpg",
+        "moImg" : "/img/pj_paik_m.jpg",
     },
 ]
 

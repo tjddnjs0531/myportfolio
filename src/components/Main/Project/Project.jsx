@@ -9,11 +9,13 @@ function Project() {
       <>
         <section id="section3" className="section inner layout">
           <h2 className="main-tit"><span>Project</span></h2>
+          {/* <img src={`${process.env.PUBLIC_URL}/img/pj_nie_pc.jpg`} alt="" /> */}
           <ul className="proj-wrap">
               {projects.map( prj =>(
                   <li key={prj.id} className="item">
                     <Link to={`/project/${prj.id}`} className="link">
-                      <div className="img" style={{backgroundImage: `url(${prj.pcImg})`}}></div>
+                      {/* <div className="img" style={{backgroundImage: `url(${prj.pcImg})`}}></div> */}
+                      <div className="img"><img src={`${process.env.PUBLIC_URL}${prj.pcImg}`} alt="" /></div>
                       <div className="bg">
                         <p className="title">{prj.name}</p>
                       </div>
