@@ -1,0 +1,9 @@
+.section{width: 100%;}
+.layout{padding-top: 100px; padding-bottom: 80px;}
+
+.main-tit{font-size: 40px; font-size: 2.5em; font-weight: 900; color: #333; margin-bottom: 1em;}
+.main-tit >span{box-shadow: inset 0 -0.4em 0 var(--yellow);line-height: 1.2;}
+
+
+.headline{text-align: center; border-bottom: 1px solid #333; position: relative; overflow: hidden; height: 500px;}
+.headline p{font-size: 6vw; font-weight: 900; color: #333; letter-spacing: 3px; white-space: nowrap; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}

@@ -1,0 +1,21 @@
+header{position: sticky; top: 0; width: 100%; background: #fff; padding-top: 1em; z-index: 500;}
+.header-wrap{position: relative; width: 100%; height: var(--header-size); display: flex; align-items: center; justify-content: space-between; border-top: 2px solid #333; border-bottom: 2px solid #333;}
+.gnb{display: flex;}
+.gnb >li{}
+.gnb >li >a{display: block;font-size: 18px;font-size: 1.125em;font-weight: 700;min-width: 100px;text-align: center;text-transform: uppercase;transition: .3s all ease-in-out; color: #333; padding: 0 10px;}
+.gnb >li >a span{position: relative; display: inline-block;}
+.gnb >li >a span::before{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 0; height: 10px; background: var(--yellow); transition: all .3s ease-in-out; z-index: -1; opacity: 0.8;}
+.gnb .active a{color: #fff;font-weight: 900;text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;letter-spacing: 2px;}
+.gnb .active-nav span::before{width: 115%; left: 50%;}
+
+.sec3 header{background: transparent;}
+.sec3 .header-wrap{border-color: #fff;}
+.sec3 .gnb >li >a{color: #fff;}
+.sec3 .gnb .active a{color: #333; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+
+@media (max-width : 480px) {
+    .gnb > li > a {
+        min-width: auto;
+        font-size: 1em;
+    }
+}
