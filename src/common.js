@@ -39,5 +39,5 @@ $(window).bind('scroll load orientationchange reload resize ready', function() {
   })
 })
 
-const sec4Top = document.querySelector("#section4").offsetTop;
-console.log(sec4Top);
+// const sec4Top = document.querySelector("#section4").offsetTop;
+// console.log(sec4Top);
